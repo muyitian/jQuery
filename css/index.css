@@ -1,0 +1,84 @@
+#header {
+  width: 100%;
+  height: 70px;
+}
+#header #wrap {
+  width: 90%;
+  height: 70px;
+  margin: 0 auto;
+}
+#header #wrap .wrap_nav {
+  float: left;
+  width: 280px;
+  height: 70px;
+}
+#header #wrap .wrap_nav > a > img {
+  width: 90%;
+  height: 40px;
+  margin: 15px 10px;
+}
+#header .wrap_r {
+  float: right;
+  width: 70%;
+  height: 42px;
+  margin: 15px auto;
+}
+#header .wrap_r #position {
+  color: #000;
+  position: relative;
+  left: -60px;
+}
+#header .wrap_r li {
+  list-style: none;
+  float: left;
+  margin: 15px 10px;
+}
+#header .wrap_r li.shanghu_r #shanghu {
+  background-color: red;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+#header .wrap_r li > a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 22px;
+}
+#header .wrap_r li > a > span {
+  font-weight: bold;
+}
+/*轮播*/
+#lunbobox {
+  width: 100%;
+  height: 420px;
+  position: relative;
+}
+#lunbobox ul {
+  width: 820px;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  z-index: 5;
+}
+#lunbobox ul li {
+  cursor: pointer;
+  width: 10px;
+  height: 4px;
+  border: 1px solid #cccccc;
+  float: left;
+  list-style: none;
+  background: #cccccc;
+  text-align: center;
+  margin: 0 5px 0 0 ;
+}
+#lunbobox .lunbo {
+  width: 100%;
+  height: 420px;
+}
+#lunbobox .lunbo img {
+  width: 100%;
+  height: 420px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
